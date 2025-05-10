@@ -7,9 +7,9 @@ import com.inrix.model.zones.Zone;
 import java.util.List;
 
 public class SortedZones {
-    private Area area;
-    private List<Zone> leftZones;
-    private List<Zone> rightZones;
+    private final Area area;
+    private final List<Zone> leftZones;
+    private final List<Zone> rightZones;
 
     public SortedZones(Area area, List<Zone> leftZones, List<Zone> rightZones) {
         this.area = area;

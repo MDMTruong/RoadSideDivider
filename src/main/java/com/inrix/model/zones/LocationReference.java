@@ -2,9 +2,6 @@ package com.inrix.model.zones;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import java.util.LinkedHashMap;
-import java.util.Map;
-
 public class LocationReference {
     private String source;
     @JsonProperty("ref_id")
@@ -12,7 +9,6 @@ public class LocationReference {
     private Integer start;
     private Integer end;
     private String side;
-    private Map<String, Object> additionalProperties = new LinkedHashMap<String, Object>();
 
     public String getSource() {
         return source;
@@ -52,13 +48,5 @@ public class LocationReference {
 
     public void setSide(String side) {
         this.side = side;
-    }
-
-    public Map<String, Object> getAdditionalProperties() {
-        return additionalProperties;
-    }
-
-    public void setAdditionalProperties(Map<String, Object> additionalProperties) {
-        this.additionalProperties = additionalProperties;
     }
 }

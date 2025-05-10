@@ -109,9 +109,9 @@ public class RoadSideDivider {
      * Break the middle line into sections, find the section closest to the zone line and use that
      * section to determine if the zone is on the left or the right
      *
-     * @param middleLine
-     * @param zoneLineString
-     * @return
+     * @param middleLine - LineString representing the middle line of the road
+     * @param zoneLineString - LineString representing a zone at the side of the road
+     * @return Whether the zone is the left or the right
      */
     private static int getOrientation(LineString middleLine, LineString zoneLineString) {
 
@@ -137,7 +137,6 @@ public class RoadSideDivider {
 
     /**
      * This initially tries to use a straight middle line through a roughly rectangular shape.
-     *
      * If the resulting line doesn't fit within the shape, use dalaunay triangulation to calculate
      * the line
      *

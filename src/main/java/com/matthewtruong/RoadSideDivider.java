@@ -1,11 +1,11 @@
-package com.inrix;
+package com.matthewtruong;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.inrix.model.SortedZones;
-import com.inrix.model.areas.Area;
-import com.inrix.model.areas.Areas;
-import com.inrix.model.zones.Zone;
-import com.inrix.model.zones.Zones;
+import com.matthewtruong.model.SortedZones;
+import com.matthewtruong.model.areas.Area;
+import com.matthewtruong.model.areas.Areas;
+import com.matthewtruong.model.zones.Zone;
+import com.matthewtruong.model.zones.Zones;
 import org.locationtech.jts.algorithm.MinimumAreaRectangle;
 import org.locationtech.jts.algorithm.Orientation;
 import org.locationtech.jts.geom.Coordinate;

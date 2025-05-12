@@ -1,4 +1,4 @@
-package com.inrix.model.zones;
+package com.matthewtruong.model.zones;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

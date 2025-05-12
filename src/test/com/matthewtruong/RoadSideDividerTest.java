@@ -1,15 +1,15 @@
-package com.inrix;
+package com.matthewtruong;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.inrix.model.SortedZones;
-import com.inrix.model.areas.Areas;
-import com.inrix.model.zones.Zone;
-import com.inrix.model.zones.Zones;
+import com.matthewtruong.model.SortedZones;
+import com.matthewtruong.model.areas.Areas;
+import com.matthewtruong.model.zones.Zone;
+import com.matthewtruong.model.zones.Zones;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 
-import static com.inrix.RoadSideDivider.getSortedZones;
+import static com.matthewtruong.RoadSideDivider.getSortedZones;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;

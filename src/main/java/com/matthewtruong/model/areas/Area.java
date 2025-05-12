@@ -1,4 +1,4 @@
-package com.inrix.model.areas;
+package com.matthewtruong.model.areas;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

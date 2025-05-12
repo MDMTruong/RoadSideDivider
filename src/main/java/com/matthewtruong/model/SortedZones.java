@@ -1,8 +1,8 @@
-package com.inrix.model;
+package com.matthewtruong.model;
 
 
-import com.inrix.model.areas.Area;
-import com.inrix.model.zones.Zone;
+import com.matthewtruong.model.areas.Area;
+import com.matthewtruong.model.zones.Zone;
 
 import java.util.List;
 
